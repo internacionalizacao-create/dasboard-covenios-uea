@@ -19,8 +19,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from geocode import Geocoder  # noqa: E402
 
 SOURCE_DB = (
-    Path(__file__).resolve().parent.parent.parent
-    / "BANCO DE DADOS GOOGLE DRIVE" / "output" / "internacionalizacao.db"
+    Path(__file__).resolve().parent.parent.parent.parent
+    / "DATA BASE UEA" / "BANCO DE DADOS GOOGLE DRIVE" / "output" / "internacionalizacao.db"
 )
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 
